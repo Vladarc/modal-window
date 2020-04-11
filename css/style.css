@@ -5,7 +5,6 @@ html{
 font-size: 10px;
 }
 body{
-
 margin: 0;
 padding: 0;
 font-family: 'Quicksand', sans-serif;
@@ -48,10 +47,10 @@ height: 100%;
 width: 100%; 
 }
 .content { 
-max-width: 400px;
-padding: 50px 70px;
+width: 400px;
+padding: 60px 70px 30px;
 position: relative;
-
+min-height: 540px;
 }
 input[name="tab"],
 input[name="keep-sign"]{
@@ -131,7 +130,6 @@ background-color: #23ae92;
 .field--primary{
 display: flex;
 justify-content: space-between;
-width: 260px;
 }
 .field__links{
 text-decoration: none;
